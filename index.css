@@ -9,8 +9,12 @@ div{
 }
 li{
     list-style: none;
+}
+
+div>ul>li{
+
     float: left;
-    margin-right: 25px;
+    margin-right: 20px;
 
 }
 .register{
@@ -24,7 +28,7 @@ li{
 }
 
 
-a{
+ a{
     display: block;
     text-decoration: none;
 
@@ -37,9 +41,32 @@ li,a{
     color: #999999;
 
 }
+
+
+
 .wecome{
     margin-left: 45px;
 }
 a:hover{
     color: red;
+    text-decoration: underline;
+}
+img{
+    display: inline;
+}
+.my_taobao:hover,.collect:hover,.sell:hover,.nav:hover{
+    background:white;
+}
+.Business_support>li>a{
+    display: inline;
+    margin-right:20px;
+}
+.my_taobao>ul{
+    display: none;
+}
+.Business_support{
+    display: none;
+}
+.my_taobao:hover>ul,.collect:hover>ul{
+    display: block;
 }
