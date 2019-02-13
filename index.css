@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+div{
+    width:100%;
+    height: 30px;
+    background: #F2F2F2;
+}
+li{
+    list-style: none;
+    float: right;
+    margin-right: 25px;
+
+}
+.wecome,.login,.register{
+    float: left;
+}
+
+
+a{
+    display: block;
+    text-decoration: none;
+
+}
+
+li,a{
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    color: #999999;
+
+}
+.wecome{
+    margin-left: 45px;
+}
+a:hover{
+    color: red;
+}
