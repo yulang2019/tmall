@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.triangle{
+    border-width: 50px;
+    border-style: solid;
+   border-top-color: transparent ;/*设置为透明的*/
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: plum;
+    width: 0px;
+
+}

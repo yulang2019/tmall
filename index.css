@@ -3,18 +3,24 @@
     padding:0;
 }
 div{
-    width:100%;
+    width: 1360px;
     height: 30px;
     background: #F2F2F2;
 }
 li{
     list-style: none;
-    float: right;
+    float: left;
     margin-right: 25px;
 
 }
+.register{
+    margin-right: 490px;
+}
 .wecome,.login,.register{
-    float: left;
+
+}
+.my_taobao,.shopping_car,.collect,.phone,.taobao,.sell,.nav{
+
 }
 
 
