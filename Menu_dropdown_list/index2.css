@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.index{
+    width: 1365px;
+    height: 30px;
+    background: #F2F2F2;
+}
+li{
+    list-style: none;
+}
+.index .menu>li{
+    float:left;
+
+}
+.index .menu .list1{
+    color: #999999;
+    margin-right: 15px;
+    font-size: 13px;
+    text-align: center;
+    line-height:30px ;
+}
+.index .menu li>a{
+    text-decoration: none;
+    color: #999999;
+    margin-right: 15px;
+    font-size: 13px;
+    text-align: center;
+    line-height:30px ;
+
+    display: block;
+
+}
+.index .menu .list3{
+    margin-right: 420px;
+}
+.index .menu li a:hover{
+    color: #ff0000;
+}
+    .index .menu .list4 .thing li a,.index .menu .list6 .Collect li a{
+   text-decoration: underline;
+}
+.index .menu >.list4:hover{
+    background: white;
+}
+.index .menu >.list6:hover {
+    background: white;
+}
+.index .menu .list4 .thing,.index .menu .list6 .Collect{
+    border-right: 1px solid #F2F2F2 ;
+    border-left: 1px solid #F2F2F2 ;
+    border-bottom: 1px solid #F2F2F2 ;
+}
+.index .menu .list5 .car,.index .menu .list7 .phone,.index .menu .list10 .nav{
+   vertical-align: middle;
+}
+.index .menu .list4 .thing,.index .menu .list6 .Collect{
+    display: none;
+}
+.index .menu .list4:hover .thing{
+    display: block;
+}
+.index .menu .list6:hover .Collect{
+    display: block;
+}
+

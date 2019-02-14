@@ -1,5 +1,10 @@
-<!--用列表写的导航菜单的下拉列表；
+<!--用列表写的导航菜单的下拉列表；html+CSS
+注意：1.当滑动到导航菜单时，不能滑动到下拉列表时，列表消失，问题是：
+应该滑动到（导航菜单的单个项目）li时，显示下拉列表，这样鼠标移出时，再设置下拉列表不可见
+2.text-align:居中包括a，span,文字等行级元素（给谁加，它的内容就是在该元素的位置范围内变化）
+
 缺点：导航菜单的宽度必须和下拉列表的宽度一致，不能灵活应用；
+
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -61,9 +66,6 @@
             <li class="phone"><a href="#"><img src="../imgs/phone.png"  style="vertical-align:middle;" >手机版</a></li>
             <li class="taobao"><a href="#">淘宝网</a></li>
             <li class="sell"><a href="#">商家支持<img src="../imgs/triangle.png"></a></li>
-
-
-            </li>
         </ul>
     </div>
 
