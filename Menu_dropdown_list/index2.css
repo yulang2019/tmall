@@ -1,6 +1,6 @@
 *{
     margin:0;
-    padding: 0;
+    padding:0;
 }
 .index{
     width: 1365px;
@@ -28,7 +28,6 @@ li{
     font-size: 13px;
     text-align: center;
     line-height:30px ;
-
     display: block;
 
 }
@@ -38,7 +37,7 @@ li{
 .index .menu li a:hover{
     color: #ff0000;
 }
-    .index .menu .list4 .thing li a,.index .menu .list6 .Collect li a{
+.index .menu .list4 .thing li a,.index .menu .list6 .collect li a{
    text-decoration: underline;
 }
 .index .menu >.list4:hover{
@@ -47,21 +46,22 @@ li{
 .index .menu >.list6:hover {
     background: white;
 }
-.index .menu .list4 .thing,.index .menu .list6 .Collect{
+.index .menu .list4 .thing,.index .menu .list6 .collect{
     border-right: 1px solid #F2F2F2 ;
     border-left: 1px solid #F2F2F2 ;
     border-bottom: 1px solid #F2F2F2 ;
 }
 .index .menu .list5 .car,.index .menu .list7 .phone,.index .menu .list10 .nav{
    vertical-align: middle;
+    margin-top: -4px;
 }
-.index .menu .list4 .thing,.index .menu .list6 .Collect{
+.index .menu .list4 .thing,.index .menu .list6 .collect{
     display: none;
 }
 .index .menu .list4:hover .thing{
     display: block;
 }
-.index .menu .list6:hover .Collect{
+.index .menu .list6:hover .collect{
     display: block;
 }
 
