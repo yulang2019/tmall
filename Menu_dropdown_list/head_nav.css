@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+.head_nav{
+    height: 35px;
+    width: 1365px;
+    background-color: #F2F2F2;
+}
+.left_nav_son>li{
+    float:left;
+
+}
+.right_nav_son{
+    float:right;
+
+}
+.right_nav_son>li{
+    float: left;
+}
+.head_nav .left_nav .left_nav_son li a{
+    text-decoration: none;
+}
+.head_nav .right_nav .right_nav_son li a{
+    text-decoration: none;
+}
+.head_nav{
+    font-size: 12px;
+}
+.head_nav .left_nav_son>li{
+     text-align: center;
+     line-height:35px ;
+    margin-right: 20px;
+ }
+.head_nav .right_nav_son>li{
+    text-align: center;
+    line-height:35px ;
+    margin-left: 20px;
+}
+.welcome{
+    margin-left: 42px;
+}
+.shopping_guide{
+    margin-right: 80px;
+}
+a,li{
+    color: #999999;
+}
+.head_nav a:hover{
+    color: red;
+}
+
+
