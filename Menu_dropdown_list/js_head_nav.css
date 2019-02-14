@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.top_nav{
+    height: 35px;
+    width: 1310px;
+    background-color: #F2F2F2;
+}
+.top_nav_left .left_nav_son>li{
+    float: left;
+}
+.top_nav_left{
+    float: left;
+}
+
+.top_nav_right .right_nav_son>li{
+    float: left;
+
+}
+.top_nav_right{
+    float: right;
+}
+.top_nav_left .left_nav_son>li {
+    line-height: 35px;
+
+}
+.top_nav_right .right_nav_son>li{
+    line-height: 35px;
+
+
+}
+.top_nav a{
+    text-decoration: none;
+}
+.top_nav_left>.left_nav_son>li{
+    font-size: 12px;
+
+}
+.left_nav_son>li,.left_nav_son>li>a{
+    color: #999999;
+}
+.welcome{
+    margin-left: 42px;
+}
+.left_nav_son li{
+    margin-right: 21px;
+}
+.left_nav_son>li>a:hover{
+    color: #ff0000;
+}
+/*.left_nav{
+    padding-right: 22px;
+}*/
+.top_nav_right>.right_nav_son>li{
+    font-size: 12px;
+
+}
+.right_nav_son>li,.right_nav_son>li>a{
+    color: #999999;
+}
+.shopping_guide{
+    margin-right: 83px;
+}
+.right_nav_son>li{
+    margin-left: 23px;
+}
+.triangle{
+    height: 0;
+    border-width: 6px;
+    border-style: solid;
+    border-top-color:#BBBBBB ;
+    border-bottom-color:transparent;
+    border-left-color:transparent ;
+    border-right-color:transparent;
+    display: inline-block;
+    width: 0;
+    vertical-align: middle;
+
+}
+.right_nav_son>li>a:hover{
+        color: #ff0000;
+}
+.taobao:hover,.collect:hover,.sell:hover,.shopping_guide:hover{
+    text-decoration:underline;
+
+}
+
+

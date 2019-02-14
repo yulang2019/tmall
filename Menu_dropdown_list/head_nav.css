@@ -61,8 +61,6 @@ li{
 a,li{
     color: #999999;
 }
-
-
 .head_nav a:hover{
     color: red;
 }
@@ -84,11 +82,12 @@ a,li{
     overflow:hidden;
 
 }
-.bb:hover,.collect:hover,.sell:hover{
-    color: red;
+.my_taobao:hover,.collect:hover,.sell:hover{
     background-color: white;
 
 }
+
+
 
 
 
