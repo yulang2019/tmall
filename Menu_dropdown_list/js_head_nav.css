@@ -7,7 +7,7 @@ li{
 }
 .top_nav{
     height: 35px;
-    width: 1310px;
+    width: 1365px;
     background-color: #F2F2F2;
 }
 .top_nav_left .left_nav_son>li{
@@ -70,7 +70,7 @@ li{
 }
 .triangle{
     height: 0;
-    border-width: 6px;
+    border-width: 4px;
     border-style: solid;
     border-top-color:#BBBBBB ;
     border-bottom-color:transparent;
@@ -84,9 +84,96 @@ li{
 .right_nav_son>li>a:hover{
         color: #ff0000;
 }
-.taobao:hover,.collect:hover,.sell:hover,.shopping_guide:hover{
+.taobao:hover,.collect:hover,.sell:hover,.shopping_guidea:hover{
     text-decoration:underline;
 
 }
+.thing>li>a,.favorite li>a,.sell_son>li>a {
+    color:#666666;
+}
+
+
+.thing>li>a:hover,.favorite li>a:hover,.sell_son>li>a:hover{
+    color:#ff0000;
+    text-decoration: underline;
+}
+.shopping_guide  a{
+
+    color:#666666;
+
+}
+.shopping_guide a:hover{
+    color:#ff0000;
+    text-decoration: underline;
+
+}
+.thing,.favorite{
+    display: none;
+}
+.right_nav_son li:hover .thing{
+    display: block;
+}
+.right_nav_son li:hover .favorite{
+    display: block;
+}
+.my_taobao,.my_collect,.my_sell{
+    position: relative;
+}
+
+.my_taobao:hover,.my_collect:hover,.my_sell:hover{
+  background-color:#ffffff ;
+}
+.thing,.favorite{
+    width: 95px;
+    height: 58px;
+    position:absolute;
+    top:35px;
+
+    border-left: 1px #EEEEEE solid ;
+    border-right: 1px #EEEEEE solid ;
+    border-bottom: 1px #EEEEEE solid ;
+}
+.right_nav_son>li{
+    width: 75px;
+    text-align: center;
+    line-height:29px;
+
+}
+.thing>li{
+    margin-top: 5px;
+    line-height:21px;
+    margin-left: 3px;
+}
+.collect>li{
+    margin-top: 1px;
+    line-height:21px;
+    margin-left: 3px;
+}
+.sell_son{
+    display: none;
+}
+.right_nav_son li:hover .sell_son{
+    display: block;
+}
+
+.sell_son{
+    width: 145px;
+    height: 180px;
+    position:absolute;
+    top:35px;
+    border: 1px saddlebrown solid;
+}
+.sell_son>li{
+    display: inline-block;
+
+}
+.shops{
+    margin-right: 70px;
+}
+
+
+
+
+
 
 
