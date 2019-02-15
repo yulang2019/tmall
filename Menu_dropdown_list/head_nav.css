@@ -47,14 +47,14 @@ li{
     text-decoration: none;
 }
 
-.head_nav .my_taobao a:hover{
-    text-decoration: underline;
+.head_nav .my_taobao:hover>a{
+    color: red;
 }
-.head_nav .collect a:hover{
-     text-decoration: underline;
+.head_nav .collect:hover>a{
+    color: red;
  }
-.head_nav .sell a:hover{
-    text-decoration: underline;
+.head_nav .sell:hover>a{
+    color: red;
 }
 
 
@@ -63,6 +63,7 @@ a,li{
 }
 .head_nav a:hover{
     color: red;
+    text-decoration: underline;
 }
 .dashed{
     height: 0;
@@ -86,12 +87,6 @@ a,li{
     background-color: white;
 
 }
-
-
-
-
-
-
 .thing,.favorite,.sell_son{
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
