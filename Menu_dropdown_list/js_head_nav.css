@@ -52,9 +52,6 @@ li{
 .left_nav_son>li>a:hover{
     color: #ff0000;
 }
-/*.left_nav{
-    padding-right: 22px;
-}*/
 .top_nav_right>.right_nav_son>li{
     font-size: 12px;
 
@@ -104,7 +101,6 @@ li{
     text-decoration: underline;
 }
 .shopping_guide  a{
-
     color:#666666;
 
 }
@@ -142,7 +138,7 @@ li{
 .right_nav_son>li{
     width: 75px;
     text-align: center;
-    line-height:29px;
+    line-height:35px;
 
 }
 .thing>li{
@@ -163,29 +159,35 @@ li{
 }
 
 .sell_son{
-    width: 145px;
+    width: 147px;
     height: 180px;
     position:absolute;
+    top:36px;
+    right: 0px;
     border-left: 1px #EEEEEE solid ;
     border-right: 1px #EEEEEE solid ;
     border-bottom: 1px #EEEEEE solid ;
 
 }
+.sell_son{
+    text-align: left;
+}
+.shops{
+    width: 147px;
+
+
+
+}
 .sell_son>li{
-    display: inline;
-    position:relative;
-}
-.shops2,.shops4,.shops6,.shops8,.shops10,.shops12{
-    margin-left: 14px;
-}
-.shops3,.shops5,.shops7,.shops9,.shops11,.shops13{
-    margin-right: 14px;
-}
-.shops2,.shops4,.shops6,.shops8,.shops10,.shops12{
-    margin-right: 25px;
-
+    float: left;
+    margin-top: -12px;
+    padding: 0 12px;
 
 }
+
+
+
+
 
 
 
