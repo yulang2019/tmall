@@ -163,7 +163,7 @@ li{
     height: 180px;
     position:absolute;
     top:36px;
-    right: 0px;
+    right: 0;
     border-left: 1px #EEEEEE solid ;
     border-right: 1px #EEEEEE solid ;
     border-bottom: 1px #EEEEEE solid ;
@@ -191,17 +191,100 @@ li{
     border-top: 1px dashed #666666;
     margin-top: 9px;
 }
+.my_shopping_guide{
+    position: relative;
+}
+
 .guide{
     width: 1205px;
     height: 162px;
-    border: 1px solid red;
+    border-color:#EEEEEE ;
+    border-style: solid ;
+    border-width: 0 1px 1px 1px;
+    position:  absolute;
+    top: 35px;
+    right: 0;
 }
 .guide>li{
     text-align: left;
+
+
+
+}
+
+.guide>li>.first{
+    border-right: 1px #F5F5F5  solid;
+    width: 485px;
+    height: 130px;
+    float: left;
+}
+.guide>li>.second{
+    border-right: 1px #F5F5F5 solid;
+    width: 485px;
+    height: 130px;
+    float: left;
+}
+.first,.second,.three{
+    margin-top: 15px;
+}
+.guide>li>.three{
+
+    width: 227px;
+    height: 130px;
     float: left;
 }
 
+.guide>li>ul>li{
+    float: left;
+}
+.first>.hot1,.second>.market1,.three>.service-guide1{
+    float: none;
+    font-size: 16px;
+}
 
+.first>.hot1>span,.second>.market1>span,.three>.service-guide1>span{
+    margin-right: 12px;
+}
+.first>li{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.second>li{
+    margin-left: 32px;
+    margin-right: 41px;
+}
+.three>li{
+    margin-left: 32px;
+    margin-right: 20px;
+}
+.first>.hot1{
+    color:#F67B1D;
+}
+.second>.market1{
+    color: #80A6E6;
+}
+.first>li>a,.second>li>a,.three>li>a{
+    color:#666666;
+
+}
+.first>li>a:hover{
+    color:#F67B1D;
+    text-decoration: underline;
+}
+.second>li>a:hover{
+    color: #80A6E6;
+    text-decoration: underline;
+}
+.three>li>a:hover{
+
+    text-decoration: underline;
+}
+.guide{
+    display: none;
+}
+.my_shopping_guide:hover .guide{
+    display: block;
+}
 
 
 
