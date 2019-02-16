@@ -7,7 +7,7 @@ li{
 }
 .top_nav{
     height: 35px;
-    width: 1349px;
+    width: 1300px;
     background-color: #F2F2F2;
 }
 .top_nav_left .left_nav_son>li{
@@ -59,8 +59,8 @@ li{
 .right_nav_son>li,.right_nav_son>li>a{
     color: #999999;
 }
-.shopping_guide{
-    margin-right: 83px;
+.my_shopping_guide{
+    margin-right: 53px;
 }
 .right_nav_son>li{
     margin-left: 23px;
@@ -127,9 +127,14 @@ li{
 .my_taobao:hover,.my_collect:hover,.my_sell:hover{
   background-color:#ffffff ;
 }
-.my_taobao:hover>.taobao{
-      color:#ff0000; ;
+.my_taobao:hover>.thing{
+    background-color: white;
 }
+.my_taobao:hover>.taobao{
+      color:#ff0000;
+
+}
+
 .thing,.favorite{
     width: 95px;
     height: 58px;
@@ -143,8 +148,12 @@ li{
 .favorite>li{
     margin-top: -1px;
 }
-.my_collect:hover>.collect{
-    color:#ff0000; ;
+
+.my_collect:hover>.favorite{
+    background-color: white;
+}
+.my_sell:hover>.sell_son{
+    background-color: white;
 }
 .thing>li{
     margin-top: 5px;
@@ -242,7 +251,11 @@ li{
     height: 130px;
     float: left;
 }
+.my_shopping_guide:hover>ul{
+    background-color: white;
 
+
+}
 .guide>li>ul>li{
     float: left;
 }
@@ -294,7 +307,83 @@ li{
 .my_shopping_guide:hover .guide{
     display: block;
 }
+.right_roll{
+
+    width: 37px;
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 1300px;
+}
+.right_roll>ul>li> .iconfont{
+     color: white;
+    font-size: 25px;
+ }
+.benefit>div{
+    color: white;
+}
+.right_roll>ul>li{
+    text-align: center;
+    margin-bottom: 25px;
 
 
+}
+.benefit{
+    margin-top: 157px;
+}
+.top_logo{
+
+    height:134px;
+    width: 1300px;
+
+}
+.top_logo>div.logo{
+    width: 180px;
+    height: 134px;
+
+    text-align: center;
+    line-height:134px ;
+    float: left;
+}
+
+.-logo{
+    width: 180px;
+    height: 100px;
+
+}
+.logo-right{
+    float: left;
+    width: 1115px;
+    height: 134px;
 
 
+}
+.search{
+    width: 627px;
+    height: 67px;
+margin-left: 125px;
+    margin-top: 38px;
+
+
+}
+.recommend{
+    margin-left: -12px;
+}
+
+.recommend>li{
+    display: inline;
+
+    padding-right: 12px;
+    padding-left: 10px;
+}
+.recommend a{
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 14px;
+}
+.recommend2 a,.recommend4 a{
+    color: #FF0036;
+}
