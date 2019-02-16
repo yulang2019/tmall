@@ -91,6 +91,8 @@ li{
     text-decoration:underline;
 
 }
+
+
 .thing>li>a,.favorite li>a,.sell_son>li>a {
     color:#666666;
 }
@@ -125,6 +127,9 @@ li{
 .my_taobao:hover,.my_collect:hover,.my_sell:hover{
   background-color:#ffffff ;
 }
+.my_taobao:hover>.taobao{
+      color:#ff0000; ;
+}
 .thing,.favorite{
     width: 95px;
     height: 58px;
@@ -135,11 +140,11 @@ li{
     border-right: 1px #EEEEEE solid ;
     border-bottom: 1px #EEEEEE solid ;
 }
-.right_nav_son>li{
-    width: 75px;
-    text-align: center;
-    line-height:35px;
-
+.favorite>li{
+    margin-top: -1px;
+}
+.my_collect:hover>.collect{
+    color:#ff0000; ;
 }
 .thing>li{
     margin-top: 5px;
@@ -150,6 +155,10 @@ li{
     margin-top: 1px;
     line-height:21px;
     margin-left: 3px;
+}
+.my_sell:hover>.sell{
+    color: red;
+
 }
 .sell_son{
     display: none;
