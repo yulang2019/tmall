@@ -7,44 +7,31 @@ li{
 }
 .top_nav{
     height: 35px;
-    width: 1300px;
+    width: 100%;
     background-color: #F2F2F2;
-}
-.top_nav_left .left_nav_son>li{
-    float: left;
-}
-.top_nav_left{
-    float: left;
-}
-
-.top_nav_right .right_nav_son>li{
-    float: left;
-
-}
-.top_nav_right{
-    float: right;
-}
-.top_nav_left .left_nav_son>li {
-    line-height: 35px;
-
-}
-.top_nav_right .right_nav_son>li{
-    line-height: 35px;
-
 
 }
 .top_nav a{
     text-decoration: none;
 }
-.top_nav_left>.left_nav_son>li{
-    font-size: 12px;
+.common{
+    width: 1230px;
+    height:35px ;
+    margin: 0 auto;
+}
 
+
+.left_nav_son>li{
+    float: left;
 }
-.left_nav_son>li,.left_nav_son>li>a{
-    color: #999999;
+.left_nav_son{
+    float: left;
 }
-.welcome{
-    margin-left: 42px;
+.left_nav_son>li {
+    line-height: 35px;
+}
+.left_nav_son>li{
+    font-size: 12px;
 }
 .left_nav_son li{
     margin-right: 21px;
@@ -52,20 +39,45 @@ li{
 .left_nav_son>li>a:hover{
     color: #ff0000;
 }
-.top_nav_right>.right_nav_son>li{
+.left_nav_son>li,.left_nav_son>li>a{
+    color: #999999;
+}
+
+
+.right_nav_son{
+    float: right;
+}
+.right_nav_son>li{
+    float: left;
+
+}
+.right_nav_son>li{
+    line-height: 35px;
+
+
+}
+.right_nav_son>li{
     font-size: 12px;
 
 }
-.right_nav_son>li,.right_nav_son>li>a{
-    color: #999999;
-}
-.my_shopping_guide{
-    margin-right: 53px;
+.welcome{
+    margin-left: 42px;
 }
 .right_nav_son>li{
     margin-left: 23px;
 }
-.triangle{
+.right_nav_son>li,.right_nav_son>li>a{
+    color: #999999;
+}
+.right_nav_son>li>a:hover{
+    color: #ff0000;
+}
+.my_shopping_guide{
+    margin-right: 53px;
+}
+
+.triangle::after{
+    content:'';
     height: 0;
     border-width: 4px;
     border-style: solid;
@@ -84,20 +96,14 @@ li{
 
 }
 
-.right_nav_son>li>a:hover{
-        color: #ff0000;
-}
+
 .taobao:hover,.collect:hover,.sell:hover,.shopping_guidea:hover{
     text-decoration:underline;
 
 }
-
-
 .thing>li>a,.favorite li>a,.sell_son>li>a {
     color:#666666;
 }
-
-
 .thing>li>a:hover,.favorite li>a:hover,.sell_son>li>a:hover{
     color:#ff0000;
     text-decoration: underline;
@@ -132,15 +138,12 @@ li{
 }
 .my_taobao:hover>.taobao{
       color:#ff0000;
-
 }
-
 .thing,.favorite{
     width: 95px;
     height: 58px;
     position:absolute;
     top:35px;
-
     border-left: 1px #EEEEEE solid ;
     border-right: 1px #EEEEEE solid ;
     border-bottom: 1px #EEEEEE solid ;
@@ -148,7 +151,6 @@ li{
 .favorite>li{
     margin-top: -1px;
 }
-
 .my_collect:hover>.favorite{
     background-color: white;
 }
@@ -167,7 +169,6 @@ li{
 }
 .my_sell:hover>.sell{
     color: red;
-
 }
 .sell_son{
     display: none;
@@ -175,7 +176,6 @@ li{
 .right_nav_son li:hover .sell_son{
     display: block;
 }
-
 .sell_son{
     width: 147px;
     height: 180px;
@@ -185,23 +185,17 @@ li{
     border-left: 1px #EEEEEE solid ;
     border-right: 1px #EEEEEE solid ;
     border-bottom: 1px #EEEEEE solid ;
-
 }
 .sell_son{
     text-align: left;
-
 }
 .shops{
     width: 147px;
-
-
-
 }
 .sell_son>li{
     float: left;
     margin-top: -10px;
     padding: 0 12px;
-
 }
 .dashed{
     width:120px;
@@ -212,7 +206,6 @@ li{
 .my_shopping_guide{
     position: relative;
 }
-
 .guide{
     width: 1205px;
     height: 162px;
@@ -225,11 +218,7 @@ li{
 }
 .guide>li{
     text-align: left;
-
-
-
 }
-
 .guide>li>.first{
     border-right: 1px #F5F5F5  solid;
     width: 485px;
@@ -253,8 +242,6 @@ li{
 }
 .my_shopping_guide:hover>ul{
     background-color: white;
-
-
 }
 .guide>li>ul>li{
     float: left;
@@ -287,7 +274,6 @@ li{
 }
 .first>li>a,.second>li>a,.three>li>a{
     color:#666666;
-
 }
 .first>li>a:hover{
     color:#F67B1D;
@@ -298,7 +284,6 @@ li{
     text-decoration: underline;
 }
 .three>li>a:hover{
-
     text-decoration: underline;
 }
 .guide{
@@ -308,7 +293,6 @@ li{
     display: block;
 }
 .right_roll{
-
     width: 37px;
     background-color: #000000;
     position: fixed;
@@ -328,22 +312,17 @@ li{
 .right_roll>ul>li{
     text-align: center;
     margin-bottom: 25px;
-
-
 }
 .benefit{
     margin-top: 157px;
 }
 .top_logo{
-
     height:134px;
     width: 1300px;
-
 }
 .top_logo>div.logo{
     width: 180px;
     height: 134px;
-
     text-align: center;
     line-height:134px ;
     float: left;
@@ -352,30 +331,23 @@ li{
 .-logo{
     width: 180px;
     height: 100px;
-
 }
 .logo-right{
     float: left;
     width: 1115px;
     height: 134px;
-
-
 }
 .search{
     width: 627px;
     height: 67px;
-margin-left: 125px;
+    margin-left: 125px;
     margin-top: 38px;
-
-
 }
 .recommend{
     margin-left: -12px;
 }
-
 .recommend>li{
     display: inline;
-
     padding-right: 12px;
     padding-left: 10px;
 }
