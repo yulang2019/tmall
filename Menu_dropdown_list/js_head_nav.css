@@ -44,27 +44,20 @@ li{
 }
 
 
+
+
 .right_nav_son{
     float: right;
 }
 .right_nav_son>li{
     float: left;
-
-}
-.right_nav_son>li{
     line-height: 35px;
-
-
-}
-.right_nav_son>li{
     font-size: 12px;
+    padding: 0 12px;
 
 }
-.welcome{
-    margin-left: 42px;
-}
-.right_nav_son>li{
-    margin-left: 23px;
+.right_nav_son>li>a{
+    padding: 0 3px;
 }
 .right_nav_son>li,.right_nav_son>li>a{
     color: #999999;
@@ -79,35 +72,78 @@ li{
 .triangle::after{
     content:'';
     height: 0;
-    border-width: 4px;
-    border-style: solid;
-    border-top-color:#BBBBBB ;
-    border-bottom-color:transparent;
-    border-left-color:transparent ;
-    border-right-color:transparent;
-    display: inline-block;
     width: 0;
-    vertical-align: middle;
-
+    border-width: 3px;
+    border-style: solid;
+    border-color:#BBBBBB transparent transparent transparent;
+    display: inline-block;
+}
+.triangle:hover::after{
+    transform: rotate(180deg);
+    transform-origin:3px 1.5px;
+    transition: transform .2s linear;
 }
 .iconfont{
     font-size: 14px;
     color: #ff0036;
-
 }
 
-
-.taobao:hover,.collect:hover,.sell:hover,.shopping_guidea:hover{
+.triangle:hover{
     text-decoration:underline;
+    border-color: #bbbbbb #BBBBBB  transparent #BBBBBB ;
 
+}
+.triangle{
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
 }
 .thing>li>a,.favorite li>a,.sell_son>li>a {
     color:#666666;
+
 }
 .thing>li>a:hover,.favorite li>a:hover,.sell_son>li>a:hover{
     color:#ff0000;
     text-decoration: underline;
 }
+.thing,.favorite{
+    display: none;
+}
+.right_nav_son li:hover .thing{
+    display: block;
+}
+.my_taobao,.my_collect,.my_sell{
+    position: relative;
+}
+.my_taobao:hover,.my_collect:hover,.my_sell:hover{
+    background-color:#ffffff ;
+}
+.my_taobao:hover>.thing{
+    background-color: white;
+}
+.my_taobao:hover>.taobao{
+    color:#ff0000;
+}
+
+.thing,.favorite{
+    padding: 0 10px;
+    width: 84px;
+    position:absolute;
+    top:35px;
+    left: -1px;/*为什么会没有对齐*/
+    border-left: 1px #EEEEEE solid ;
+    border-right: 1px #EEEEEE solid ;
+    border-bottom: 1px #EEEEEE solid ;
+}
+.thing>li{
+    margin-top: 5px;
+    line-height:21px;
+    margin-left: 4px;
+}
+
+
+
+
 .shopping_guide  a{
     color:#666666;
 
@@ -117,37 +153,13 @@ li{
     text-decoration: underline;
 
 }
-.thing,.favorite{
-    display: none;
-}
-.right_nav_son li:hover .thing{
-    display: block;
-}
+
+
 .right_nav_son li:hover .favorite{
     display: block;
 }
-.my_taobao,.my_collect,.my_sell{
-    position: relative;
-}
 
-.my_taobao:hover,.my_collect:hover,.my_sell:hover{
-  background-color:#ffffff ;
-}
-.my_taobao:hover>.thing{
-    background-color: white;
-}
-.my_taobao:hover>.taobao{
-      color:#ff0000;
-}
-.thing,.favorite{
-    width: 95px;
-    height: 58px;
-    position:absolute;
-    top:35px;
-    border-left: 1px #EEEEEE solid ;
-    border-right: 1px #EEEEEE solid ;
-    border-bottom: 1px #EEEEEE solid ;
-}
+
 .favorite>li{
     margin-top: -1px;
 }
@@ -156,11 +168,6 @@ li{
 }
 .my_sell:hover>.sell_son{
     background-color: white;
-}
-.thing>li{
-    margin-top: 5px;
-    line-height:21px;
-    margin-left: 3px;
 }
 .collect>li{
     margin-top: 1px;
