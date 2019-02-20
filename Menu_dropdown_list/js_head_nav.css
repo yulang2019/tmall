@@ -553,14 +553,27 @@ li{
    color: red;
 
 }
-.goods-content >li {
+.goods{
+    position: relative;
+}
+.specific-goods{
+    position: absolute;
+    left: 210px;
+    top: 0;
+    display: none;
+}
+.goods:hover>.specific-goods{
+    display: block;
+}
 
+.goods-content>li{
     width: 200px;
     height: 31.2px;
     line-height: 31.2px;
     background-color: rgba(0,0,0,.55);
     padding-left: 10px;
 }
+
 .goods-content>li:first-child{
     background-color: #FF0036;
     height: 36px;
@@ -611,23 +624,24 @@ div.little-banner>a:hover>img{
     opacity: 1;
     transition: opacity .2s ease;
 }
-
 /*specific-goods start*/
 .specific-goods{
-    margin-left: 300px;
+  background-color: white;
     width: 852px;
     height: 500px;
-    border: 1px solid #00ff00;
 }
 .specific-names{
-    width: 583px;
+    width: 633px;
     height: 462px;
+    background-color: white;
+    float: left;
+    z-index: 999;
 
 
 }
 .specific-logo{
-    width: 209px;
-    height: 500px;
+    width: 199px;
+    height: 480px;
 
 }
 
@@ -636,7 +650,7 @@ div.little-banner>a:hover>img{
 }
 .cloth-content{
     width: 493px;
-    height: 66px;
+    height:50px;
     border-bottom: 1px dashed #BBBBBB;
     padding-bottom: 0;
 }
@@ -644,47 +658,49 @@ div.little-banner>a:hover>img{
 
 .fashion-content{
     position: absolute;
-    top:23px;
+    top:15px;
     left: 80px;
 }
 .jacket-content{
     position: absolute;
-    top:58px;
+    top:30px;
     left: 80px;
 }
 .romance-content{
     position: absolute;
-    top:93px;
+    top:45px;
     left: 80px;
 
 }
 .ms-summer-content{
     position: absolute;
-    top:128px;
+    top:60px;
     left: 80px;
 
 }
 .feature-content{
     position: absolute;
-    top:163px;
+    top:75px;
     left: 80px;
 }
 .bra-toning-content{
-    height: 30px;
+    height:30px;
     position: absolute;
-    top:196px;
+    top:85px;
     left: 80px;
 }
 .nightclothes-content{
     position: absolute;
-    top:200px;
+    top:80px;
     left: 80px;
+
 }
 .waistcoats-content{
     height: 30px;
     position: absolute;
-    top:230px;
+    top:100px;
     left: 80px;
+    border: none;
 }
 
 
@@ -697,44 +713,49 @@ div.little-banner>a:hover>img{
 
 .fashion>div{
     position: absolute;
-    top:23px;
+    top:15px;
 }
 .jacket>div{
     position: absolute;
-    top:58px;
+    top:30px;
 }
 .romance>div{
     position: absolute;
-    top:93px;
+    top:45px;
 }
 
 .ms-summer>div{
     position: absolute;
-    top:128px;
+    top:60px;
 }
 .feature>div{
     position: absolute;
-    top:163px;
+    top:75px;
 }
 .bra-toning>div{
     position: absolute;
-    top: 198px;
+    top: 75px;
 }
 .nightclothes>div{
     position: absolute;
-    top: 200px;
+    top: 80px;
 
 }
 .waistcoats>div{
     position: absolute;
-    top:230px;
+    top:100px;
 }
 .specific-names>ul{
     margin-left: 20px;
+    height: 500px;
+    background-color: white;
 }
 .cloth-content>li{
+    height: 15px;
+   margin-bottom:3px;
     float: left;
-    margin-right: 10px;-
+    margin-right: 10px;
+    display: inline;
 }
 
 .cloth-content>li>a{
@@ -746,9 +767,26 @@ div.little-banner>a:hover>img{
     color: red;
 }
 
+/*specific-logo*/
+.specific-logo{
+    float: right;
+    border: 10px solid #FAFAFA;
+    background-color: white;
+}
+.specific-logo>a>img{
+    width: 73px;
+    height: 36.5px;
 
-
-
-
+}
+.specific-logo>a{
+    width: 93px;
+    height: 47px;
+    background-color: white;
+    margin: 7px;
+}
+.specific-logo>a>img.last{
+    width: 189px;
+    height: 87px;
+}
 
 
