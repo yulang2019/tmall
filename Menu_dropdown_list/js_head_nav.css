@@ -512,6 +512,32 @@ li{
     position: relative;
     top: -3px;
 }
+.goods-content li a{
+   text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.goods-content li {
+    width: 200px;
+    height: 36px;
+    background-color: rgba(0,0,0,.55);;
+    opacity: 0.5;
+}
+.goods-content>li:first-child{
+    background-color: #FF0036;
+
+}
+.goods-content>li:first-child a {
+    font-size: 17px;
+    opacity: 1;
+}
+
+.goods-content li i{
+    color: white;
+}
+.goods-content li a{
+
+}
 
 
 
