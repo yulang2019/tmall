@@ -314,6 +314,7 @@ li{
     top: 0;
     bottom: 0;
     margin-left: 1300px;
+    z-index: 999;
 }
 .right_roll>ul>li> .iconfont{
      color: white;
@@ -504,6 +505,9 @@ li{
     width: 100px;
     height: 30px;
 }
+.navigation-bar>li>a:hover{
+    color: red;
+}
 .navigation-bar>li>a{
     text-decoration: none;
     color: #666666;
@@ -517,19 +521,44 @@ li{
     position: relative;
     top: -3px;
 }
+.goods-category{
+    background-image:  url("../imgs/banner.jpg") ;
+    height: 500px;
+}
+.scroll-bar>li{
+    cursor: pointer;
+}
+.scroll-bar>li:first-child{
+    background-color: white;
+}
+.goods-category>.common{
+    position: relative;
 
+}
+.goods-content{
+    position: absolute;
+    top: -36px;
+    left: -24px;
+}
 .goods-content li a{
    text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
+}
+.goods-content li:hover{
+    background-color: white;
+
+}
+.goods-content li:hover>a{
+   color: red;
+
 }
 .goods-content li {
 
     width: 200px;
     height: 31.2px;
     line-height: 31.2px;
-    background-color: rgba(0,0,0,.55);;
-    opacity: 0.5;
+    background-color: rgba(0,0,0,.55);
     padding-left: 10px;
 }
 .goods-content>li:first-child{
@@ -538,12 +567,58 @@ li{
     line-height: 36px;
     font-size: 17px;
     opacity: 1;
+    color: white;
+    font-weight: bold;
 
 }
 .goods-content li i{
     color: white;
 }
+.goods-category{
+    position: relative;
+}
+.scroll-bar{
+    height: 5px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 
+}
+.scroll-bar li{
+    width: 25px;
+    height: 5px;
+  background-color: rgba(0, 0, 0, .55);
+    float: left;
+  margin-right: 10px;
+}
+.little-banner{
+    width: 220px;
+    float: right;
+    margin-right: 20px;
+}
+.little-banner>a>img{
+    width: 220px;
+    height: 234px;
+   background-color: white;
+    opacity: 0.5;
+   margin-bottom: 12px;
+
+}
+
+div.little-banner>a:hover>img{
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+
+/*specific-goods start*/
+.specific-goods{
+    margin-left: 300px;
+    width: 852px;
+    height: 500px;
+    border: 1px solid #00ff00;
+}
 
 
 
