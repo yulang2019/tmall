@@ -109,6 +109,11 @@ li{
 }
 .thing,.favorite{
     display: none;
+
+}
+.right_nav_son>li>ul,.right_nav_son>li>div{
+    z-index: 9999;
+
 }
 .right_nav_son li:hover .thing{
     display: block;
@@ -506,38 +511,39 @@ li{
 }
 
 .navigation-bar>li:first-child{
-    margin-left: 210px;
+    margin-left: 230px;
 }
 .navigation-bar .bar-imgs{
     position: relative;
     top: -3px;
 }
+
 .goods-content li a{
    text-decoration: none;
     color: white;
     font-size: 12px;
 }
 .goods-content li {
+
     width: 200px;
-    height: 36px;
+    height: 31.2px;
+    line-height: 31.2px;
     background-color: rgba(0,0,0,.55);;
     opacity: 0.5;
+    padding-left: 10px;
 }
 .goods-content>li:first-child{
     background-color: #FF0036;
-
-}
-.goods-content>li:first-child a {
+    height: 36px;
+    line-height: 36px;
     font-size: 17px;
     opacity: 1;
-}
 
+}
 .goods-content li i{
     color: white;
 }
-.goods-content li a{
 
-}
 
 
 
