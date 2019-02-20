@@ -540,20 +540,20 @@ li{
     top: -36px;
     left: -24px;
 }
-.goods-content li a{
+.goods-content>li>a{
    text-decoration: none;
     color: white;
     font-size: 14px;
 }
-.goods-content li:hover{
+.goods-content>li:hover{
     background-color: white;
 
 }
-.goods-content li:hover>a{
+.goods-content>li:hover>a{
    color: red;
 
 }
-.goods-content li {
+.goods-content >li {
 
     width: 200px;
     height: 31.2px;
@@ -586,7 +586,7 @@ li{
     transform: translateX(-50%);
 
 }
-.scroll-bar li{
+.scroll-bar>li{
     width: 25px;
     height: 5px;
   background-color: rgba(0, 0, 0, .55);
@@ -619,6 +619,135 @@ div.little-banner>a:hover>img{
     height: 500px;
     border: 1px solid #00ff00;
 }
+.specific-names{
+    width: 583px;
+    height: 462px;
+
+
+}
+.specific-logo{
+    width: 209px;
+    height: 500px;
+
+}
+
+.clothing{
+    position: relative;
+}
+.cloth-content{
+    width: 493px;
+    height: 66px;
+    border-bottom: 1px dashed #BBBBBB;
+    padding-bottom: 0;
+}
+
+
+.fashion-content{
+    position: absolute;
+    top:23px;
+    left: 80px;
+}
+.jacket-content{
+    position: absolute;
+    top:58px;
+    left: 80px;
+}
+.romance-content{
+    position: absolute;
+    top:93px;
+    left: 80px;
+
+}
+.ms-summer-content{
+    position: absolute;
+    top:128px;
+    left: 80px;
+
+}
+.feature-content{
+    position: absolute;
+    top:163px;
+    left: 80px;
+}
+.bra-toning-content{
+    height: 30px;
+    position: absolute;
+    top:196px;
+    left: 80px;
+}
+.nightclothes-content{
+    position: absolute;
+    top:200px;
+    left: 80px;
+}
+.waistcoats-content{
+    height: 30px;
+    position: absolute;
+    top:230px;
+    left: 80px;
+}
+
+
+.clothing{
+    width: 60px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fashion>div{
+    position: absolute;
+    top:23px;
+}
+.jacket>div{
+    position: absolute;
+    top:58px;
+}
+.romance>div{
+    position: absolute;
+    top:93px;
+}
+
+.ms-summer>div{
+    position: absolute;
+    top:128px;
+}
+.feature>div{
+    position: absolute;
+    top:163px;
+}
+.bra-toning>div{
+    position: absolute;
+    top: 198px;
+}
+.nightclothes>div{
+    position: absolute;
+    top: 200px;
+
+}
+.waistcoats>div{
+    position: absolute;
+    top:230px;
+}
+.specific-names>ul{
+    margin-left: 20px;
+}
+.cloth-content>li{
+    float: left;
+    margin-right: 10px;-
+}
+
+.cloth-content>li>a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #BBBBBB;
+}
+.cloth-content>li>a:hover{
+    color: red;
+}
+
+
+
 
 
 
