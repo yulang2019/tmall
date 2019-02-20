@@ -9,14 +9,13 @@ li{
     height: 35px;
     width: 100%;
     background-color: #F2F2F2;
-
 }
 .top_nav a{
     text-decoration: none;
 }
 .common{
     width: 1230px;
-    height:35px ;
+    height:100% ;
     margin: 0 auto;
 }
 
@@ -42,10 +41,6 @@ li{
 .left_nav_son>li,.left_nav_son>li>a{
     color: #999999;
 }
-
-
-
-
 .right_nav_son{
     float: right;
 }
@@ -68,7 +63,6 @@ li{
 .my_shopping_guide{
     margin-right: 53px;
 }
-
 .triangle::after{
     content:'';
     height: 0;
@@ -87,16 +81,23 @@ li{
     font-size: 14px;
     color: #ff0036;
 }
-
 .triangle:hover{
+    border-color: transparent  #BBBBBB  transparent #BBBBBB ;
+
+}
+.triangle>a:hover{
     text-decoration:underline;
-    border-color: #bbbbbb #BBBBBB  transparent #BBBBBB ;
 
 }
 .triangle{
     border-style: solid;
     border-color: transparent;
     border-width: 1px;
+    cursor: pointer;
+}
+.triangle>a{
+    display: inline-block;
+    height: 100%;
 }
 .thing>li>a,.favorite li>a,.sell_son>li>a {
     color:#666666;
@@ -115,13 +116,13 @@ li{
 .my_taobao,.my_collect,.my_sell{
     position: relative;
 }
-.my_taobao:hover,.my_collect:hover,.my_sell:hover{
+.triangle:hover{
     background-color:#ffffff ;
 }
 .my_taobao:hover>.thing{
     background-color: white;
 }
-.my_taobao:hover>.taobao{
+.triangle:hover>a{
     color:#ff0000;
 }
 
@@ -130,7 +131,7 @@ li{
     width: 84px;
     position:absolute;
     top:35px;
-    left: -1px;/*为什么会没有对齐*/
+    left: -1px;/*因为子元素是与内容对齐的*/
     border-left: 1px #EEEEEE solid ;
     border-right: 1px #EEEEEE solid ;
     border-bottom: 1px #EEEEEE solid ;
@@ -313,9 +314,7 @@ li{
      color: white;
     font-size: 25px;
  }
-.benefit>div{
-    color: white;
-}
+
 .right_roll>ul>li{
     text-align: center;
     margin-bottom: 25px;
@@ -323,46 +322,197 @@ li{
 .benefit{
     margin-top: 157px;
 }
-.top_logo{
-    height:134px;
-    width: 1300px;
+
+
+/*二维码*/
+.phone{
+    position: relative;
 }
-.top_logo>div.logo{
-    width: 180px;
-    height: 134px;
-    text-align: center;
-    line-height:134px ;
+.er-code {
+    width: 175px;
+    height: 227px;
+    background-color: white;
+    position: absolute;
+    right: -65px;
+    top: 32px;
+    box-shadow: 0 0 5px #aaa;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    -moz-box-shadow:0 0 5px #aaa;
+    -ms-box-shadow:0 0 5px #aaa;
+    -o-box-shadow: 0 0 5px #aaa;
+
+}
+.er-code::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    position:absolute;
+    top:-9px;
+    left:70px;
+}
+.er-code>img{
     float: left;
+    margin: 10px;
+
+}
+.er-code>.content{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    float: left;
+
+}
+.content>span{
+
+  float: left;
+    margin-left: 40px;
+    line-height: 20px;
+}
+.er-code{
+    display: none;
+}
+.phone:hover>.er-code{
+    display: block;
+}
+.benefit>a{
+    display: block;
+    width:34px ;
+}
+.benefit>a:hover{
+    background-color: #F2F2F2;
+}
+.benefit{
+    position: relative;
+}
+.vip{
+    color: red;
+    position: absolute;
+    left:-150px;
+    top:-5px;
+    background-color: #BBBBBB;
+    padding: 5px 10px;
+    visibility: hidden;
+}
+.vip>div{
+    width: 0;
+    height: 0;
+    border-color: #BBBBBB;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    left:79px;
+    bottom: 12px;
+    transform: rotate(45deg);
+
+}
+.benefit:hover>.vip{
+    position: absolute;
+    left:-90px;
+    visibility: visible;
+    transition: all .3s ease;
+
+
 }
 
-.-logo{
-    width: 180px;
-    height: 100px;
-}
-.logo-right{
+/*main-search*/
+.main-search .logo,.main-search .search{
     float: left;
-    width: 1115px;
-    height: 134px;
+    padding-top: 10px;
 }
-.search{
-    width: 627px;
-    height: 67px;
-    margin-left: 125px;
-    margin-top: 38px;
+.search>form{
+    width: 625px;
+    height: 40px;
+    border: 2px solid red;
+    line-height: 40px;
 }
-.recommend{
-    margin-left: -12px;
+.search .search-text{
+    width: 491px;
+    height: 36px;
+    border: none;
+    font-size: 16px;
+    color: #aaaaaa;
+    text-indent: 10px;
+
+
 }
-.recommend>li{
-    display: inline;
-    padding-right: 12px;
-    padding-left: 10px;
+.search .search-button{
+    width: 132px;
+    height: 100%;
+    float: right;
+    border: none;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
-.recommend a{
-    color: #CCCCCC;
+.nav-main li a{
     text-decoration: none;
-    font-size: 14px;
+    color: #BBBBBB;
 }
-.recommend2 a,.recommend4 a{
-    color: #FF0036;
+.nav-main li{
+    float: left;
+    margin-top: 7px;
+    padding:0 12px ;
+    border-right: 1px solid #BBBBBB;
+    font-size: 15px;
+
 }
+.nav-main li:first-child{
+    padding-left:0 ;
+}
+.nav-main li:last-child{
+    border-right: none;
+}
+.nav-main li .highlight{
+    color: red;
+}
+.main-search>.common{
+    position: relative;
+
+}
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navigation-bar>li{
+    float: left;
+    margin-left: 10px;
+}
+
+.navigation-bar>li img{
+    width: 100px;
+    height: 30px;
+}
+.navigation-bar>li>a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+}
+
+.navigation-bar>li:first-child{
+    margin-left: 210px;
+}
+.navigation-bar .bar-imgs{
+    position: relative;
+    top: -3px;
+}
+
+
+
+
