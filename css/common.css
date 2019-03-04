@@ -1,0 +1,35 @@
+.font-color{
+    color: #fff;
+}
+.font-size{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.common-style{
+    display: block;
+    height: 41px;
+}
+.common-style:hover{
+        color: #ff0000;
+        text-decoration: underline;
+}
+.triangle{
+    position: relative;
+}
+.triangle::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #BBBBBB transparent transparent transparent;
+    position:absolute;
+    right: 5px;
+    top:15px;
+}
+.common-style:hover{
+    background-color: #fff;
+}
