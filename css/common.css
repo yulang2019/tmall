@@ -30,6 +30,18 @@ a{
     right: 5px;
     top:15px;
 }
+.myInfo>li:hover>.triangle::after{
+    transform: rotate(180deg);
+    transform-origin:3px 1.5px;
+    transition: transform .2s linear;
+}
 .common-style:hover{
     background-color: #fff;
+    border-width: 1px;
+    border-style: 1px;
+   
+}
+.myInfo>.my-taobao:hover{
+    border-color: #bbbbbb #bbbbbb transparent #bbbbbb;
+
 }

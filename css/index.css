@@ -3,6 +3,7 @@
     width: 100%;
     height: 41px;
     background-color: #550283;
+    box-shadow: 0px 1px 5px 1px #550283;
     
 }
 .wrap{
@@ -30,14 +31,10 @@
 .myInfo>li{
     float: left;
     line-height: 32px;
-  
 }
-
-
 .myInfo{
     float: right;
 }
-
 .myInfo>li>a,.login-info>li>a{
     color: #fff;
     font-size: 12px;
@@ -53,7 +50,6 @@
     width: 74px;
     height: 40px;
 }
-
 .myInfo>li>a.car-link{
     width: 93.97px;
     height: 33px;
@@ -84,14 +80,18 @@
 }
 .menu-right1{
     width: 96px;
+}
+.menu-right1,.menu2-right3{
     height: 97px;
-    border: 1px solid #bbbbbb;
+    border-width: 1px;
+    border-style:  solid;
+    border-color: transparent #bbbbbb #bbbbbb #bbbbbb ;
     display: none;
     position: absolute;
+    left:-1px;
     top:32px;
     background-color: #fff;
 }
-
 .menu-right1 a{
     color: #666;
     width: 74px;
@@ -100,18 +100,34 @@
     margin: 0 auto;
     
 }
-.menu-right1 a:hover{
+.menu-right1 a:hover,.menu2-right3 a:hover{
     color: #ff0000;
         text-decoration: underline;
 }
-.my-taobao{
+.my-taobao,.my-favorite{
     position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
 }
-.my-taobao:hover>ul{
+.myInfo>li:hover>ul{
     display: block;
 }
-.my-taobao:hover>a{
+.my-taobao:hover>a,.my-favorite:hover>a{
     background-color: #fff;
     color: #ff0000;
 }
+.menu2-right3{
+    width: 84px;
+}
+.menu2-right3 a{
+    color: #666;
+    width: 62px;
+    height: 40px;
+    display:block;
+    margin: 0 auto;
+    
+}
+
+
 
