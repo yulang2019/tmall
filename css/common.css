@@ -45,3 +45,8 @@ a{
     border-color: #bbbbbb #bbbbbb transparent #bbbbbb;
 
 }
+.clearflex::after{
+    content: "";
+    clear: both;
+    display: block;
+}

@@ -23,9 +23,14 @@
 .login-info{
     float: left;
 }
+.login-info>li:first-child{
+    margin-top:2px;
+
+
+}
 .login-info>li{
     float: left;
-    line-height: 32px;
+   line-height: 32px;
    margin-right: 22px;
 }
 .myInfo>li{
@@ -128,6 +133,155 @@
     margin: 0 auto;
     
 }
+.mobile-link{
+    position: relative;
+}
+.qrcode{
+    width: 175px;
+    height: 227px;
+    background-color:#fff;
+    border: 1px solid #DBDBDB;
+    position: absolute;
+    top:32px;
+    left: -45px;
+    display: none;
+   
+}
+.qrcode::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #fff;
+    position: absolute;
+    top:-5px;
+    left: 75px;
+    transform: rotate(45deg);
+}
+.qrcode>li:last-child{
+    text-align: center;
+    margin-top:10px;
 
+}
+.seller-support{
+    width: 144px;
+    height: 268px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent #EEEEEE #EEEEEE #EEEEEE;
+}
+.seller-menu-item{
+    position: relative;
+}
+.seller-support{
+    position: absolute;
+    top:32px;
+    right: 0px;
+    display: none;
+    
+}
+
+.seller>li:not(first-child),.help>li:not(first-child){
+    float: left;
+    margin-top:-3px;
+
+}
+.seller>li:nth-child(2),.help>li:nth-child(2){
+    clear: both;
+}
+.seller>li:first-child,.help>li:first-child{
+    font-weight: bolder;
+    color: #666666;
+    margin-left: 12px;
+}
+.seller>li>a{
+    display: block;
+    width: 48px;
+    height: 40px;
+}
+.seller>li:nth-child(2n),.help>li:nth-child(2n){
+    margin-left: 12px;
+    margin-right: 25px;
+}
+.seller-support a{
+    color: #666666;
+}
+.seller-info>.seller,.help{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: transparent transparent  #666 transparent;
+} 
+.seller{
+
+    width: 140px;
+    height: 187px;
+}
+.help,.seller{
+    padding-bottom: 7px;
+
+}
+.seller-support a:hover{
+    color: #FF0036;
+    text-decoration: underline;
+}
+.seller-menu-item:hover>a{
+    background-color: #fff;
+    color: #FF0036;
+}
+.sitemap{
+    position: relative;
+}
+.sitemap-item{
+    width: 1200px;
+    height: 161px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff0;
+    position: absolute;
+    top:32px;
+    right: 0px;
+}
+
+.first{
+    width: 458px;
+    height: 118px;
+    border: 1px solid #ff0;
+    float: left;
+    margin-left: 25px;
+    margin-top:24px;
+}
+.first li{
+    float: left;
+    width: 91px;
+    height: 28.8px;
+    font-size: 12px;
+
+}
+
+.first>li:first-child{
+    color: #F57821;
+    font-size: 17px;
+    width: 485px;
+}
+.first>li:nth-child(2){
+    clear: both;
+}
+.second{
+    width: 489px;
+    height: 118px;
+    border: 1px solid #0f0;
+    float: left;
+    margin-top:24px;
+}
+.three{
+    width: 222px;
+    height: 118px;
+    float: left;
+    border: 1px solid #f00;
+    margin-top:24px;
+}
 
 
