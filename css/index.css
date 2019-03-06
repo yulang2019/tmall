@@ -87,6 +87,7 @@
     left:-1px;
     top:32px;
     background-color: #fff;
+    z-index: 2;
 }
 .menu-right1 a{
     color: #666;
@@ -170,6 +171,7 @@
     top:32px;
     right: 0;
     display: none;
+    z-index: 2;
 }
 
 .seller>li:not(first-child),.help>li:not(first-child){
@@ -234,6 +236,7 @@
     right: 0;
     background-color: #fff;
     display: none;
+    z-index: 2;
 }
 .hot,.market,.service-guide{
     height: 118px;
@@ -468,12 +471,31 @@ border-right: 1px solid #ffffff;
     left: 50%;
 }
 
-.homepage-ads li{
+.homepage-ads>.slide>li{
     width: 27px;
     height: 6px;
     background-color: rgba(0,0,0,0.3);
     float: left;
     margin-right: 8px;
+
+}
+.adlet>li{
+    width: 220px;
+    height: 234px;
+    margin-top: 10px;
+
+
+}
+.adlet img{
+    position: absolute;
+    right: 0;
+    width: 220px;
+    height: 234px;
+    background-color:rgba(255,255,255,0.5);
+
+}
+.adlet a:hover>img{
+    background-color:rgba(255,255,255,0.9);
 
 }
 /*homepage-ads:ends*/
