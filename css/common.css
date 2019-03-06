@@ -1,5 +1,12 @@
+.wrap{
+    width: 1230px;
+    margin: 0 auto;
+}
 .font-color{
     color: #fff;
+}
+.hight-light{
+    color:#FFE013;
 }
 .font-size{
     font-size: 12px;
@@ -38,7 +45,7 @@ a{
 .common-style:hover{
     background-color: #fff;
     border-width: 1px;
-    border-style: 1px;
+    border-style: solid;
    
 }
 .myInfo>.my-taobao:hover{

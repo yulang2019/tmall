@@ -231,7 +231,7 @@
     border-color: transparent #eeeeee #eeeeee #eeeeee;
     position: absolute;
     top:32px;
-    right: 0px;
+    right: 0;
     background-color: #fff;
     display: none;
 }
@@ -298,6 +298,7 @@
 
 /* side-card:end */
 /* homepage:begin */
+/* homepage-form:begin */
 .homepage{
     height: 1356px;
     background: url(../imgs/main-background-image.png);
@@ -307,10 +308,8 @@
     float: left;
 }
 .homepage-form{
-    height: 150px;
+
     overflow: hidden;
-
-
 }
 .form-content{
     width: 625px;
@@ -347,8 +346,9 @@
 .hot-query{
     width: 625px;
     height: 28px;
-    border: 3px solid #fff;
     margin: 0 auto;
+    position: relative;
+    left:-15px;
 }
 .hot-query>li{
     width: 67px;
@@ -356,10 +356,82 @@
     float: left;
     margin-top:5px;
     font-size: 14px;
+    text-align: center;
 }
-.hot-query>li:nth-child(2)>a{
-    color:#fff;
+.hot-query>li{
+border-right: 1px solid #ffffff;
 }
+.hot-query>li.last-child{
+    border: none;
+}
+/* homepage-form:end */
+/*homepage-content；begin-*/
+.pagemain-nav{
+    border-bottom: 1px solid #FF0036;
+    height: 36px;
+    margin-left: 200px;
+    background-color: #ffffff;
+}
+.pagemain-nav>li{
+    float: left;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+   font-size: 17px;
+
+}
+.pagemain-nav>li>a{
+    color: #333333;
+}
+.pagemain-nav img{
+    width: 100px;
+    height: 30px;
+}
+.li-size1{
+    width: 80px;
+    height: 35px;
+
+}
+.li-size2{
+    width: 64px;
+    height: 35px;
+}
+
+/*homepage-content；end*/
+/*commodities:begin*/
+.commodities{
+    width: 200px;
+    height: 600px;
+    background-color: rgba(0,0,0,.55);
+}
+.commodities>li{
+    float: left;
+    line-height: 36px;
+
+}
+.commodities>li>a{
+    width: 100px;
+    height: 36px;
+    display: block;
+    text-align:center;
+}
+.commodities>li:first-child{
+    background-color: #C60A0A;
+}
+.commodities>li:last-child{
+    background-color: #231028;
+}
+.commodities-items{
+    position: relative;
+}
+.commodities-content{
+    position: absolute;
+    top:36px;
+    left:0;
+
+    width: 200px;
+}
+/*commodities:end*/
 /* homepage:end */
 
 
