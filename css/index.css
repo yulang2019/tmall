@@ -3,13 +3,9 @@
     width: 100%;
     height: 41px;
     background-color: #550283;
-    box-shadow: 0px 1px 5px 1px #550283;
+    box-shadow: 0 1px 5px 1px #550283;
 }
-.wrap{
-    width:1230px;
-    height: 32px;
-   margin: 0 auto;
-}
+
 .site-nav>.wrap>.form{
     width: 218px;
     height: 32px;
@@ -26,8 +22,8 @@
 }
 .login-info>li{
     float: left;
-   line-height: 32px;
-   margin-right: 22px;
+    line-height: 32px;
+    margin-right: 22px;
 }
 .myInfo>li{
     float: left;
@@ -53,7 +49,7 @@
 .myInfo>li>a.car-link{
     width: 93.97px;
     height: 33px;
-  
+
 }
 .myInfo>li>a.favorite{
     width: 62px;
@@ -101,7 +97,7 @@
 }
 .menu-right1 a:hover,.menu2-right3 a:hover{
     color: #ff0000;
-        text-decoration: underline;
+    text-decoration: underline;
 }
 .my-taobao,.my-favorite{
     position: relative;
@@ -118,6 +114,7 @@
 }
 .menu2-right3{
     width: 84px;
+    z-index: 2;
 }
 .menu2-right3 a{
     color: #666;
@@ -138,6 +135,7 @@
     top:32px;
     left: -45px;
     display: none;
+    z-index: 2;
 }
 .qrcode::after{
     content: "";
@@ -170,7 +168,7 @@
 .seller-support{
     position: absolute;
     top:32px;
-    right: 0px;
+    right: 0;
     display: none;
 }
 
@@ -202,7 +200,7 @@
     border-style: dotted;
     border-width: 1px;
     border-color: transparent transparent  #666 transparent;
-} 
+}
 .seller{
     width: 140px;
     height: 187px;
@@ -292,13 +290,76 @@
 .side-card{
     width: 35px;
     position: fixed;
-    right: 0px;
-    top:0px;
+    right: 0;
+    top:0;
     bottom: 0;
     background-color: #000;
 }
 
-
 /* side-card:end */
+/* homepage:begin */
+.homepage{
+    height: 1356px;
+    background: url(../imgs/main-background-image.png);
+}
+.logo{
+    margin-left: 18px;
+    float: left;
+}
+.homepage-form{
+    height: 150px;
+    overflow: hidden;
+
+
+}
+.form-content{
+    width: 625px;
+    height: 34px;
+    border: 3px solid #fff;
+    margin: 37px auto 0 auto;
+    position: relative;
+}
+.form-content>input:first-child{
+    width: 491px;
+    height: 36px;
+    border: none;
+    background-color:transparent;
+    box-sizing: border-box;
+    padding-left:15px;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+}
+.form-content>input:last-child{
+    width: 132px;
+    height: 36px;
+    border: 0;
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: #fff;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: #FF0036;
+    cursor: pointer;
+}
+.hot-query{
+    width: 625px;
+    height: 28px;
+    border: 3px solid #fff;
+    margin: 0 auto;
+}
+.hot-query>li{
+    width: 67px;
+    height:15px;
+    float: left;
+    margin-top:5px;
+    font-size: 14px;
+}
+.hot-query>li:nth-child(2)>a{
+    color:#fff;
+}
+/* homepage:end */
 
 
