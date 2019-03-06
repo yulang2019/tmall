@@ -369,7 +369,8 @@ border-right: 1px solid #ffffff;
 .pagemain-nav{
     border-bottom: 1px solid #FF0036;
     height: 36px;
-    margin-left: 200px;
+    margin-top: -2px;
+    margin-left: 204px;
     background-color: #ffffff;
 }
 .pagemain-nav>li{
@@ -401,22 +402,25 @@ border-right: 1px solid #ffffff;
 /*commodities:begin*/
 .commodities{
     width: 200px;
-    height: 600px;
+    height: 542px;
     background-color: rgba(0,0,0,.55);
+    margin-top: -40px;
+    margin-left: 3px;
+    position: relative;
+    z-index: 1;
+
 }
 .commodities>li{
     float: left;
-    line-height: 36px;
-
-}
-.commodities>li>a{
     width: 100px;
     height: 36px;
-    display: block;
-    text-align:center;
+    margin-top: -35px;
+    line-height: 36px;
+    cursor: pointer;
 }
 .commodities>li:first-child{
     background-color: #C60A0A;
+
 }
 .commodities>li:last-child{
     background-color: #231028;
@@ -431,7 +435,48 @@ border-right: 1px solid #ffffff;
 
     width: 200px;
 }
+.commodities-content>li{
+    width: 200px;
+    height: 31px;
+    color: #ffffff;
+    padding-left: 16px;
+}
+.commodities-content a{
+    color: #ffffff;
+}
+.homepage-ads{
+
+}
 /*commodities:end*/
+
+/*homepage-ads:begin*/
+.homepage>.wrap{
+    position: relative;
+}
+.homepage-ads{
+    width: 1227px;
+    height: 500px;
+    position: absolute;
+    top:36px;
+    right:0;
+    border-top: 2px solid #ff0000;
+    background: url("../imgs/fruits-ads.webp");
+}
+.homepage-ads>.slide{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+.homepage-ads li{
+    width: 27px;
+    height: 6px;
+    background-color: rgba(0,0,0,0.3);
+    float: left;
+    margin-right: 8px;
+
+}
+/*homepage-ads:ends*/
 /* homepage:end */
 
 
